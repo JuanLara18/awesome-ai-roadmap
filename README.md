@@ -27,8 +27,9 @@ graph TD
     NLP --> MLOps["MLOps & Production"]
     CV --> MLOps
     Agents --> MLOps
+    MLOps --> E2E["End-to-End Platforms"]
     DL --> Safety["AI Safety & Ethics"]
-    MLOps --> Frontiers["Emerging Frontiers"]
+    E2E --> Frontiers["Emerging Frontiers"]
     Safety --> Frontiers
 ```
 
@@ -45,6 +46,7 @@ graph TD
   - [Generative AI](#-generative-ai)
   - [AI Agents & Autonomous Systems](#-ai-agents--autonomous-systems)
   - [MLOps & Production AI](#-mlops--production-ai)
+  - [End-to-End AI Platforms](#-end-to-end-ai-platforms)
   - [AI Safety & Ethics](#-ai-safety--ethics)
   - [Emerging Frontiers](#-emerging-frontiers)
 - [Resources](#resources)
@@ -188,6 +190,21 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 | LLMOps | LLM-specific deployment, caching, cost optimization |
 
 **Project Ideas:** End-to-end ML pipeline with MLflow, model API with FastAPI + Docker, automated retraining system
+
+---
+
+### [End-to-End AI Platforms](tracks/11-end-to-end-platforms/README.md)
+
+> From data to deployed model — cloud, managed, and local deployment paradigms.
+
+| Topic | What You'll Learn |
+|---|---|
+| Cloud ML Platforms | AWS SageMaker, GCP Vertex AI, Azure ML — full managed pipelines |
+| Managed / Serverless | Hugging Face, Replicate, Modal, Together AI, Groq — ship fast |
+| Local / Self-Hosted | Ollama, llama.cpp, LM Studio, LocalAI — privacy and control |
+| Workflow Patterns | The end-to-end loop across platforms, cost decision frameworks |
+
+**Project Ideas:** Deploy a model on 3 platforms, local RAG system with Ollama, production LLM gateway router
 
 ---
 
