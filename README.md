@@ -1,125 +1,276 @@
+# AI & Machine Learning Roadmap
 
-# 🚀 AI Roadmap  
+[![Stars](https://img.shields.io/github/stars/JuanLara18/AI-Roadmap?style=for-the-badge&color=yellow)](https://github.com/JuanLara18/AI-Roadmap/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/JuanLara18/AI-Roadmap?style=for-the-badge&color=blue)](https://github.com/JuanLara18/AI-Roadmap/commits/main)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)](#contributing)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/JuanLara18/AI-Roadmap?color=blue&style=flat-square)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)
+**The open-source roadmap to mastering AI and Machine Learning in 2025-2026** — from mathematical foundations to AI agents, large language models, and production systems. Curated resources, project ideas, and visual learning paths.
 
-A structured, project-based roadmap for learning **Machine Learning & AI** through hands-on projects. Each project builds on the previous one, helping you move from beginner to advanced AI concepts.  
+> [!TIP]
+> Star this repo to keep it in your GitHub feed. New tracks and resources are added regularly.
 
+---
 
+## Roadmap Overview
 
-## 📌 **What’s Inside?**  
-
-✔ **22 Machine Learning & AI projects** 🚀  
-✔ Hands-on learning with **Jupyter Notebooks** 📒  
-✔ Covers **Data Science, NLP, Computer Vision, and MLOps** 🔥  
-
-
-
-## 🏆 **Project Roadmap**  
-
-| **#** | **Project Name**                         | **Difficulty** | **Objective**                                           | **Key Technologies**                                                                                 | **Expected Outcome**                                           |
-|-------|-------------------------------------------|----------------|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| **1** | **Exploratory Data Analysis Portfolio**   | 🟢 Beginner     | Learn to analyze and visualize datasets.                | Pandas, Matplotlib, Seaborn                                                                  | Master data exploration and visualization.                     |
-| **2** | **Iris Flower Classification**            | 🟢 Beginner     | Train ML models to classify flower species.             | Scikit-learn, Decision Trees, Random Forests                                                 | Understand classification models and feature importance.       |
-| **3** | **Titanic Survival Prediction**           | 🟢 Beginner     | Predict survival based on passenger data.               | Scikit-learn, Logistic Regression, Data Preprocessing, Feature Engineering                    | Learn to handle missing data and categorical variables.        |
-| **4** | **Build Your Own Linear Regression**      | 🟡 Intermediate | Implement linear regression from scratch.               | NumPy, Gradient Descent                                                                      | Gain a deep understanding of linear regression mechanics.      |
-| **5** | **Housing Price Predictor**               | 🟡 Intermediate | Predict house prices using regression models.           | Scikit-learn, Feature Engineering                                                            | Apply regression in real-world scenarios.                      |
-| **6** | **Sentiment Analysis System**             | 🟡 Intermediate | Analyze sentiment in real-world text data.              | Natural Language Processing (NLP), Transformers, Text Processing                             | Learn text vectorization and model fine-tuning.                |
-| **7** | **Customer Churn Predictor**              | 🟡 Intermediate | Identify customers likely to leave a service.           | Scikit-learn, Random Forests, Data Balancing                                                 | Apply predictive modeling in business scenarios.               |
-| **8** | **Stock Price Predictor**                 | 🔵 Advanced     | Forecast stock prices using time-series data.           | Scikit-learn, Long Short-Term Memory Networks (LSTMs), Time Series Analysis                   | Explore financial ML modeling challenges.                      |
-| **9** | **Build Your Own Neural Network**         | 🔵 Advanced     | Create a neural network from scratch.                   | NumPy, Backpropagation, Matrix Algebra                                                       | Understand deep learning at a mathematical level.              |
-| **10**| **Image Classification System**           | 🔵 Advanced     | Train a Convolutional Neural Network (CNN) to classify images. | TensorFlow, Keras, Convolutional Neural Networks (CNNs)                                       | Learn the fundamentals of deep learning.                       |
-| **11**| **Real-Time Face Recognition System**     | 🔵 Advanced     | Detect and recognize faces in real time.                | OpenCV, Deep Learning                                                                        | Apply AI in real-world security applications.                  |
-| **12**| **Recommendation System**                 | 🟡 Intermediate | Build a system that recommends content/products.        | Scikit-learn, Collaborative Filtering, Data Mining                                           | Understand the logic behind recommendation engines.            |
-| **13**| **Automated ML Pipeline**                 | 🔵 Advanced     | Automate the ML workflow from data preprocessing to model selection. | AutoML, MLOps, Cloud Computing                                                               | Learn how to scale AI models efficiently.                      |
-| **14**| **Language Model from Scratch**           | 🔵 Advanced     | Build a basic Transformer-based language model.         | Natural Language Processing (NLP), Transformers, PyTorch                                     | Understand the foundations of large language models.           |
-| **15**| **A/B Testing Framework**                 | 🟡 Intermediate | Evaluate ML models using statistical testing.           | Experiment Design, Hypothesis Testing                                                        | Learn proper validation techniques for ML models.              |
-| **16**| **Image Generation System (GANs)**        | 🔵 Advanced     | Generate images using deep learning.                    | TensorFlow, Keras, Generative Adversarial Networks (GANs)                                    | Explore AI-based content generation.                           |
-| **17**| **Multilanguage NLP Pipeline**            | 🔵 Advanced     | Process and analyze multilingual text.                  | Natural Language Processing (NLP), Machine Translation                                       | Apply AI to multilingual language processing.                  |
-| **18**| **Reinforcement Learning Game**           | 🔵 Advanced     | Train an AI agent to play video games.                  | Reinforcement Learning, Policy Gradients                                                     | Learn how agents interact and improve through experience.      |
-| **19**| **Real-Time Fraud Detection System**      | 🔵 Advanced     | Detect fraudulent transactions using AI.                | Scikit-learn, Fraud Detection, Anomaly Detection                                             | Apply AI for financial security and risk management.           |
-| **20**| **Build Your Own AutoML**                 | 🔵 Advanced     | Create a system that automates ML model training and selection. | AutoML, Feature Engineering                                                                  | Learn how to design AutoML systems.                            |
-| **21**| **MLOps Pipeline**                        | 🔵 Advanced     | Implement a scalable MLOps infrastructure.              | MLOps, DevOps, Cloud Platforms                                                               | Learn how to deploy and maintain ML models in production.      |
-| **22**| **Distributed ML System**                 | 🔴 Expert       | Train ML models at scale using multiple machines.       | Distributed Computing, Big Data, Apache Spark                                                | Master high-performance AI workloads.                          |
-
-
-
-
-## 📂 **Repository Structure**  
-
-This repository follows a structured format to keep projects organized and scalable.
-
-```
-AI-Roadmap/
-│── projects/                     # Contains all machine learning projects
-│   ├── 01-exploratory-data-analysis/  
-│   │   ├── README.md              # Project overview and instructions
-│   │   ├── notebook.ipynb         # Main Jupyter Notebook
-│   │   ├── images/                # Stores visualizations, plots, model outputs
-│   │   ├── src/                   # Contains modular Python scripts
-│   │   │   ├── preprocessing.py   # Functions for data cleaning & preprocessing
-│   │   │   ├── model.py           # Machine learning model implementation
-│   │   │   ├── utils.py           # Helper functions for various tasks
-│   │   ├── results/               # Stores outputs like CSVs, predictions, logs
-│   ├── 02-iris-flower-classification/
-│   ├── ... (all 22 projects)
-│── datasets/                      # Shared datasets for all projects
-│── docs/                          # Guides, documentation, additional resources
-│── scripts/                       # Utility scripts for setup or automation
-│── CONTRIBUTING.md                 # Guidelines for contributing to the repo
-│── LICENSE                        # Open-source license (MIT)
-│── README.md                      # Main repository documentation
-│── pyproject.toml                  # Dependency and environment management
-│── .gitignore                      # Specifies which files should be ignored by Git
-```
-
-
-## 📦 **Managing Dependencies**  
-
-This repository uses **pyproject.toml** to allow installing only the dependencies needed for a specific project.  
-
-### ✅ **Installing Dependencies for a Specific Project**  
-Instead of installing all libraries, you can install only what you need.  
-
-Example: If you want to work on the **Iris Flower Classification** project, run:  
-```bash
-pip install -e .[iris-classification]
-```
-
-Example: If you want to work on the **Stock Price Predictor** project, run:  
-```bash
-pip install -e .[stock-prediction]
-```
-
-### ✅ **Installing Everything**  
-If you prefer to install all dependencies at once:  
-```bash
-pip install -e .[eda, iris-classification, titanic, linear-regression, housing, sentiment-analysis, churn-prediction, stock-prediction, neural-network, image-classification, face-recognition, recommendation, automl, language-model, ab-testing, image-generation, multilanguage-nlp, reinforcement-learning, fraud-detection, mlops, distributed-ml]
+```mermaid
+graph TD
+    Start["START HERE"] --> F["Foundations"]
+    F --> CML["Classical ML"]
+    CML --> DL["Deep Learning"]
+    DL --> NLP["NLP & LLMs"]
+    DL --> CV["Computer Vision"]
+    DL --> GenAI["Generative AI"]
+    NLP --> Agents["AI Agents"]
+    GenAI --> Agents
+    NLP --> MLOps["MLOps & Production"]
+    CV --> MLOps
+    Agents --> MLOps
+    DL --> Safety["AI Safety & Ethics"]
+    MLOps --> Frontiers["Emerging Frontiers"]
+    Safety --> Frontiers
 ```
 
 ---
 
-Now you can work on **any project independently** without unnecessary dependencies! 🚀
+## Table of Contents
 
-
-## 🤝 **Contributing**  
-
-Contributions are **welcome**! 🎉  
-- Suggest improvements 🚀  
-- Add new projects 🔥  
-
-Read the [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-
-
-## 📜 **License**  
-
-This project is licensed under the **MIT License**.
+- [Learning Tracks](#learning-tracks)
+  - [Foundations](#-foundations)
+  - [Classical Machine Learning](#-classical-machine-learning)
+  - [Deep Learning](#-deep-learning)
+  - [NLP & Large Language Models](#-nlp--large-language-models)
+  - [Computer Vision](#-computer-vision)
+  - [Generative AI](#-generative-ai)
+  - [AI Agents & Autonomous Systems](#-ai-agents--autonomous-systems)
+  - [MLOps & Production AI](#-mlops--production-ai)
+  - [AI Safety & Ethics](#-ai-safety--ethics)
+  - [Emerging Frontiers](#-emerging-frontiers)
+- [Resources](#resources)
+- [How to Use This Roadmap](#how-to-use-this-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
+## Learning Tracks
 
+Each track contains a detailed guide with concepts to learn, curated resources, project ideas, and recommended tools. Click on a track to dive in.
 
-⭐ **If you find this useful, consider starring the repo!** 😊✨
+### [Foundations](tracks/01-foundations/README.md)
+
+> Mathematics, Python, data literacy, and the building blocks for everything that follows.
+
+| Topic | What You'll Learn |
+|---|---|
+| Linear Algebra | Vectors, matrices, eigenvalues, SVD |
+| Calculus & Optimization | Gradients, chain rule, gradient descent |
+| Probability & Statistics | Distributions, Bayes' theorem, hypothesis testing |
+| Python for Data Science | NumPy, Pandas, Matplotlib, Jupyter |
+| Data Wrangling | Cleaning, feature engineering, EDA |
+
+**Project Ideas:** Exploratory data analysis portfolio, statistical hypothesis testing suite, data pipeline builder
+
+---
+
+### [Classical Machine Learning](tracks/02-classical-ml/README.md)
+
+> Supervised and unsupervised learning, the algorithms that started it all.
+
+| Topic | What You'll Learn |
+|---|---|
+| Supervised Learning | Linear/logistic regression, SVMs, decision trees, ensemble methods |
+| Unsupervised Learning | K-means, DBSCAN, PCA, t-SNE |
+| Model Evaluation | Cross-validation, ROC/AUC, bias-variance tradeoff |
+| Feature Engineering | Selection, extraction, encoding, scaling |
+| AutoML | Automated model selection and hyperparameter tuning |
+
+**Project Ideas:** Titanic survival predictor, customer churn classifier, housing price estimator, recommendation engine
+
+---
+
+### [Deep Learning](tracks/03-deep-learning/README.md)
+
+> Neural networks from scratch to state-of-the-art architectures.
+
+| Topic | What You'll Learn |
+|---|---|
+| Neural Network Fundamentals | Perceptrons, backpropagation, activation functions |
+| CNNs | Convolutions, pooling, ResNet, EfficientNet |
+| RNNs & Sequences | LSTMs, GRUs, sequence-to-sequence models |
+| Transformers | Self-attention, positional encoding, the architecture that changed AI |
+| Training at Scale | Mixed precision, distributed training, gradient accumulation |
+
+**Project Ideas:** Build a neural network from scratch, image classifier with CNNs, stock price forecaster with LSTMs
+
+---
+
+### [NLP & Large Language Models](tracks/04-nlp-and-llms/README.md)
+
+> From text processing to building and deploying LLM-powered applications.
+
+| Topic | What You'll Learn |
+|---|---|
+| Text Fundamentals | Tokenization, embeddings, TF-IDF, Word2Vec |
+| Transformer Models | BERT, GPT, T5, encoder vs decoder architectures |
+| LLM Fine-tuning | SFT, LoRA, QLoRA, RLHF, DPO, GRPO |
+| RAG | Retrieval-augmented generation, vector databases, chunking strategies |
+| Prompt Engineering | System prompts, few-shot learning, chain-of-thought, context engineering |
+| LLM Serving | vLLM, TGI, Ollama, quantization (GGUF, AWQ, GPTQ) |
+
+**Project Ideas:** Sentiment analysis system, RAG chatbot over your documents, multilingual NLP pipeline, LLM-powered code reviewer
+
+---
+
+### [Computer Vision](tracks/05-computer-vision/README.md)
+
+> Teaching machines to see — from image classification to multimodal understanding.
+
+| Topic | What You'll Learn |
+|---|---|
+| Image Classification | CNNs, transfer learning, data augmentation |
+| Object Detection | YOLO, Faster R-CNN, anchor-based vs anchor-free |
+| Segmentation | Semantic, instance, and panoptic segmentation (SAM) |
+| Video Understanding | Optical flow, action recognition, video transformers |
+| Vision-Language Models | CLIP, LLaVA, Florence, visual question answering |
+
+**Project Ideas:** Real-time face recognition, image classification system, object detection for custom datasets, visual search engine
+
+---
+
+### [Generative AI](tracks/06-generative-ai/README.md)
+
+> Creating new content — text, images, audio, video, and code.
+
+| Topic | What You'll Learn |
+|---|---|
+| Image Generation | GANs, VAEs, diffusion models, Stable Diffusion, Flux |
+| Text Generation | Autoregressive models, sampling strategies, beam search |
+| Audio & Music | Text-to-speech, voice cloning, music generation |
+| Video Generation | Sora, Runway, temporal consistency |
+| Code Generation | Copilot-style tools, code LLMs, benchmark evaluation |
+| Multimodal Generation | Text-to-image, image-to-text, any-to-any models |
+
+**Project Ideas:** Image generation with GANs, style transfer app, AI music composer, text-to-image prompt playground
+
+---
+
+### [AI Agents & Autonomous Systems](tracks/07-ai-agents/README.md)
+
+> Building AI systems that reason, plan, use tools, and act autonomously.
+
+| Topic | What You'll Learn |
+|---|---|
+| Agent Fundamentals | ReAct pattern, tool use, function calling |
+| Agent Frameworks | LangChain, LangGraph, CrewAI, AutoGen, Smolagents |
+| Agentic RAG | Query decomposition, tool routing, verification loops |
+| Multi-Agent Systems | Orchestration, delegation, inter-agent communication |
+| MCP | Model Context Protocol for standardized tool integration |
+| Agent Evaluation | Benchmarks, sandboxing, reliability metrics |
+
+**Project Ideas:** Web research agent, coding assistant, multi-agent debate system, automated data analysis pipeline
+
+---
+
+### [MLOps & Production AI](tracks/08-mlops-production/README.md)
+
+> Taking models from notebooks to reliable, scalable production systems.
+
+| Topic | What You'll Learn |
+|---|---|
+| Experiment Tracking | MLflow, Weights & Biases, Trackio |
+| Model Serving | TorchServe, Triton, BentoML, FastAPI |
+| Containerization | Docker, Kubernetes for ML workloads |
+| CI/CD for ML | Testing pipelines, automated retraining, GitHub Actions |
+| Monitoring | Data drift detection, model performance monitoring |
+| Feature Stores | Feast, Tecton, online vs offline features |
+| LLMOps | LLM-specific deployment, caching, cost optimization |
+
+**Project Ideas:** End-to-end ML pipeline with MLflow, model API with FastAPI + Docker, automated retraining system
+
+---
+
+### [AI Safety & Ethics](tracks/09-ai-safety-ethics/README.md)
+
+> Building AI systems that are reliable, fair, and aligned with human values.
+
+| Topic | What You'll Learn |
+|---|---|
+| Alignment | RLHF, constitutional AI, reward modeling |
+| Interpretability | SHAP, LIME, attention visualization, mechanistic interpretability |
+| Bias & Fairness | Detecting and mitigating bias, fairness metrics |
+| Red Teaming | Adversarial attacks, jailbreaking, robustness testing |
+| Governance | Responsible AI frameworks, regulations (EU AI Act), model cards |
+| Privacy | Differential privacy, federated learning, data anonymization |
+
+**Project Ideas:** Bias detection toolkit, model interpretability dashboard, adversarial robustness tester
+
+---
+
+### [Emerging Frontiers](tracks/10-emerging-frontiers/README.md)
+
+> The cutting edge — where AI is heading next.
+
+| Topic | What You'll Learn |
+|---|---|
+| Multimodal AI | Vision-language models, any-to-any architectures |
+| Robotics & Embodied AI | Simulation, control, real-world deployment |
+| AI for Science | Protein folding (AlphaFold), drug discovery, materials science |
+| Reinforcement Learning | Policy gradients, PPO, RLHF, game-playing agents |
+| World Models | Simulation, predictive models, model-based RL |
+| Edge AI | On-device inference, model compression, TinyML |
+
+**Project Ideas:** Reinforcement learning game agent, scientific paper analyzer, edge-deployed image classifier
+
+---
+
+## Resources
+
+Curated collections to accelerate your learning:
+
+| Resource | Description |
+|---|---|
+| [Tools & Frameworks](resources/tools.md) | The essential AI/ML toolbox — libraries, platforms, and services |
+| [Must-Read Papers](resources/papers.md) | Foundational and cutting-edge research papers |
+| [Courses](resources/courses.md) | Best free and paid courses from top universities and platforms |
+| [Books](resources/books.md) | Recommended reading from beginner to advanced |
+| [Datasets](resources/datasets.md) | Where to find datasets for your projects |
+
+---
+
+## How to Use This Roadmap
+
+1. **Follow the tracks in order** if you're starting from scratch — each builds on the previous
+2. **Jump to any track** if you already have the prerequisites
+3. **Pick project ideas** from each track to build your portfolio
+4. **Use the resources** section to find courses, papers, and tools
+5. **Contribute** by suggesting new resources, fixing errors, or adding project ideas
+
+> [!NOTE]
+> You don't need to complete every topic in a track before moving on. The roadmap is a guide, not a checklist. Focus on what interests you and build projects along the way.
+
+---
+
+## Contributing
+
+Contributions are welcome! Whether it's adding a new resource link, suggesting a project idea, fixing a typo, or proposing an entirely new track — every contribution helps.
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Ways to Contribute
+- Add or update resource links
+- Suggest new project ideas
+- Improve track descriptions
+- Fix errors or outdated information
+- Translate content to other languages
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**If you find this roadmap useful, give it a star — it helps others discover it too.**
