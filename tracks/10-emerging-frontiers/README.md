@@ -14,8 +14,10 @@ Models that understand and generate across multiple modalities — text, images,
 
 | Model / Approach | Modalities | Description |
 |---|---|---|
-| **GPT-4o** | Text, image, audio | Unified multimodal reasoning |
-| **Gemini** | Text, image, audio, video | Google's multimodal family |
+| **GPT-5.4** | Text, image, audio, computer use | Frontier multimodal reasoning with tool use |
+| **Claude Opus 4.6** | Text, image, code | Long-context reasoning, agentic coding |
+| **Gemini 3.1 Pro** | Text, image, audio, video | Google's multimodal family with long context |
+| **LLaMA 4 (Scout, Maverick)** | Text, image | Open-source multimodal with 10M context |
 | **LLaVA / LLaVA-Next** | Text, image | Open-source vision-language models |
 | **CLIP** | Text, image | Contrastive vision-language pretraining |
 | **ImageBind (Meta)** | 6 modalities | Binding images, text, audio, depth, thermal, IMU |
@@ -50,7 +52,7 @@ AI systems that interact with the physical world.
 |---|---|
 | Simulation | MuJoCo, Isaac Sim, PyBullet for training before real-world deployment |
 | Sim-to-Real Transfer | Bridging the gap between simulation and reality |
-| Foundation Models for Robotics | RT-2, Octo — applying LLM-style models to robotics |
+| Foundation Models for Robotics | RT-2, Octo, MolmoWeb — applying LLM-style models to robotics and web |
 | Manipulation | Grasping, assembly, dexterous hands |
 | Navigation | Autonomous movement in complex environments |
 | Human-Robot Interaction | Natural language commands, collaborative work |
@@ -76,6 +78,7 @@ AI systems that build internal models of how the world works.
 |---|---|
 | World Models | Learning predictive models of environments |
 | Video Prediction | Predicting future frames from past observations |
+| State Space Models (Mamba) | Linear-time alternatives to transformers, hybrid architectures (Nemotron) |
 | Neural Radiance Fields (NeRFs) | 3D scene reconstruction from images |
 | Gaussian Splatting | Real-time 3D scene rendering |
 | Digital Twins | Virtual replicas of physical systems |
@@ -104,6 +107,7 @@ Running AI on constrained devices — phones, IoT, embedded systems.
 | Continual / Lifelong Learning | Models that learn incrementally without forgetting |
 | Causal Inference | Understanding cause and effect, not just correlation |
 | Synthetic Data Generation | Creating training data artificially |
+| Computer Use Agents | Models controlling desktop/browser interfaces (GPT-5.4, Claude Opus 4.6) |
 | AI Governance & Policy | Shaping the future of AI regulation |
 
 ---

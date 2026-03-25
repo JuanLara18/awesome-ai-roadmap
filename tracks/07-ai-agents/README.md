@@ -19,6 +19,7 @@ What makes an LLM into an agent: the ability to reason, plan, and act.
 | Planning | Breaking complex tasks into subtasks |
 | Memory | Short-term (conversation), long-term (persistent knowledge) |
 | Observation Loop | Agent acts, observes results, adjusts strategy |
+| Computer Use | Agents controlling desktop/browser interfaces autonomously |
 
 ```mermaid
 graph LR
@@ -31,7 +32,7 @@ graph LR
 
 ### Agent Frameworks
 
-The ecosystem for building agents in 2025-2026.
+The rapidly growing ecosystem for building agents.
 
 | Framework | Description | Best For |
 |---|---|---|
@@ -42,6 +43,7 @@ The ecosystem for building agents in 2025-2026.
 | **OpenAI Agents SDK** | OpenAI's native agent framework | OpenAI model users |
 | **Pydantic AI** | Type-safe agent framework | Production-grade agents |
 | **Mastra** | TypeScript agent framework | JS/TS developers |
+| **Kitaru** | Durable execution for agents (crash recovery, approvals) | Reliable production agents |
 
 ### Agentic RAG
 
@@ -80,6 +82,8 @@ The emerging standard for connecting LLMs to external tools and data.
 | MCP Clients | LLM applications that connect to MCP servers |
 | Tool Discovery | Agents discover available tools dynamically |
 | Resource Access | Standardized read access to external data |
+| Sampling | Server-initiated LLM calls through the client |
+| Composability | Chaining MCP servers for complex workflows |
 
 ### Agent Evaluation
 

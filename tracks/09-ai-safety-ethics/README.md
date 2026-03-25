@@ -19,6 +19,7 @@ Ensuring AI systems do what we actually want.
 | Reward Modeling | Training separate models to judge output quality |
 | DPO / GRPO | Direct preference optimization — simpler alternatives to RLHF |
 | Instruction Hierarchy | Ensuring models follow system instructions over user attempts to override |
+| Frontier Model Safety | System cards, capability evaluations for new model releases |
 | Value Alignment Problem | The fundamental challenge of specifying what we want |
 
 ### Interpretability & Explainability

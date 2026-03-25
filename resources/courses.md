@@ -52,6 +52,7 @@
 | [Building RAG Agents](https://www.deeplearning.ai/short-courses/) | DeepLearning.AI | RAG architecture |
 | [Hugging Face Diffusion Models Course](https://huggingface.co/learn/diffusion-course) | Hugging Face | Diffusion models |
 | [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) | Hugging Face | Building AI agents |
+| [Hugging Face Computer Vision Course](https://huggingface.co/learn/computer-vision-course) | Hugging Face | CV with transformers |
 
 ## Paid (Worth It)
 

@@ -93,7 +93,8 @@ MLOps specific to LLM-powered applications.
 | Cost Optimization | Model routing, token budgets, smaller models for simple tasks |
 | Guardrails | Input/output filtering, content moderation (NeMo Guardrails, Guardrails AI) |
 | Evaluation | LLM-as-judge, human evaluation, automated benchmarks |
-| Observability | LangSmith, Langfuse, Phoenix for tracing LLM calls |
+| Observability | LangSmith, Langfuse, Braintrust, Phoenix for tracing LLM calls |
+| Agent Infrastructure | Durable execution, crash recovery, approval gates (Kitaru, Temporal) |
 
 ---
 

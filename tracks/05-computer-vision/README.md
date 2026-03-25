@@ -61,10 +61,12 @@ Bridging vision and language — the frontier of multimodal AI.
 | Model | Capability |
 |---|---|
 | **CLIP** | Zero-shot image classification via text |
-| **LLaVA** | Visual question answering, image reasoning |
-| **GPT-4V / GPT-4o** | Multimodal understanding and generation |
+| **LLaVA / LLaVA-Next** | Open-source visual question answering, image reasoning |
+| **GPT-5.4 / Claude Opus 4.6** | Frontier multimodal understanding and reasoning |
+| **Gemini 3.1 Pro** | Native multimodal with long-context vision |
+| **LLaMA 4 (Scout, Maverick)** | Open-source multimodal with native image understanding |
 | **Florence-2** | Unified visual understanding |
-| **PaliGemma** | Google's open vision-language model |
+| **PaliGemma 2** | Google's open vision-language model |
 
 ---
 

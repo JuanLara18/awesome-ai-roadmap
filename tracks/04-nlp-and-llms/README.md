@@ -27,10 +27,12 @@ The zoo of models built on the transformer architecture.
 | Model Family | Type | Best For |
 |---|---|---|
 | **BERT** (and RoBERTa, DeBERTa) | Encoder | Classification, NER, semantic similarity |
-| **GPT** (2, 3, 4, 4o) | Decoder | Text generation, instruction following |
+| **GPT** (GPT-5, GPT-5.4) | Decoder | Text generation, reasoning, instruction following |
 | **T5 / FLAN-T5** | Encoder-Decoder | Summarization, translation, general NLU |
-| **LLaMA / Mistral / Qwen** | Decoder | Open-source text generation |
-| **Claude / Gemini** | Decoder | Multimodal, long context, reasoning |
+| **LLaMA 4 / Mistral / Qwen 3** | Decoder | Open-source text generation, multimodal |
+| **Claude** (Opus 4.6, Sonnet 4.6) | Decoder | Long context, agentic coding, reasoning |
+| **Gemini** (3.1 Pro) | Decoder | Multimodal, long context, reasoning |
+| **DeepSeek** (V3, R2) | Decoder (MoE) | Cost-efficient reasoning, open-source |
 
 ### LLM Fine-Tuning
 
@@ -84,8 +86,8 @@ Getting models into production.
 | **TGI (Text Generation Inference)** | Hugging Face's production inference server |
 | **Ollama** | Run LLMs locally with one command |
 | **llama.cpp** | CPU-friendly inference with GGUF quantization |
-| **SGLang** | Fast structured generation |
-| Quantization (GPTQ, AWQ, GGUF) | Making models smaller and faster |
+| **SGLang** | Fast structured generation and serving |
+| Quantization (GPTQ, AWQ, GGUF, FP8) | Making models smaller and faster |
 
 ---
 
@@ -105,7 +107,7 @@ Getting models into production.
 ### Key Papers
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) — The Transformer
 - [BERT](https://arxiv.org/abs/1810.04805) — Bidirectional encoder representations
-- [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+- [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) — foundation for in-context learning
 - [LoRA](https://arxiv.org/abs/2106.09685) — Low-Rank Adaptation
 - [Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) — Original RAG paper
 - [DPO](https://arxiv.org/abs/2305.18290) — Direct Preference Optimization
@@ -116,6 +118,7 @@ Getting models into production.
 - [LlamaIndex](https://www.llamaindex.ai/) — data framework for LLM apps
 - [Unsloth](https://github.com/unslothai/unsloth) — fast fine-tuning
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) — fine-tuning toolkit
+- [FeynRL](https://github.com/boson-ai/FeynRL) — modular post-training (SFT, DPO, PPO, GRPO)
 
 ---
 

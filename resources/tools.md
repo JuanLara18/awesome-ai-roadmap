@@ -47,6 +47,7 @@
 | **Ollama** | Run LLMs locally | [ollama.com](https://ollama.com/) |
 | **Unsloth** | Fast LLM fine-tuning | [github.com/unslothai/unsloth](https://github.com/unslothai/unsloth) |
 | **TRL** | Transformer reinforcement learning | [huggingface.co/docs/trl](https://huggingface.co/docs/trl) |
+| **FeynRL** | Modular post-training (SFT, DPO, GRPO) | [github.com/boson-ai/FeynRL](https://github.com/boson-ai/FeynRL) |
 | **spaCy** | Production NLP | [spacy.io](https://spacy.io/) |
 | **NLTK** | Teaching NLP | [nltk.org](https://www.nltk.org/) |
 
@@ -79,6 +80,7 @@
 | **AutoGen** | Multi-agent conversations | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) |
 | **Smolagents** | Lightweight agents | [huggingface.co/docs/smolagents](https://huggingface.co/docs/smolagents) |
 | **Browser Use** | Web automation for agents | [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use) |
+| **Kitaru** | Durable agent execution with crash recovery | [github.com/zenml-io/kitaru](https://github.com/zenml-io/kitaru) |
 
 ## MLOps & Production
 

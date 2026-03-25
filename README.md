@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)](#contributing)
 
-**The open-source roadmap to mastering AI and Machine Learning in 2025-2026** — from mathematical foundations to AI agents, large language models, and production systems. Curated resources, project ideas, and visual learning paths.
+**The open-source roadmap to mastering AI and Machine Learning** — from mathematical foundations to AI agents, large language models, and production systems. Curated resources, project ideas, and visual learning paths.
 
 > [!TIP]
 > Star this repo to keep it in your GitHub feed. New tracks and resources are added regularly.
@@ -148,7 +148,7 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 | Image Generation | GANs, VAEs, diffusion models, Stable Diffusion, Flux |
 | Text Generation | Autoregressive models, sampling strategies, beam search |
 | Audio & Music | Text-to-speech, voice cloning, music generation |
-| Video Generation | Sora, Runway, temporal consistency |
+| Video Generation | Sora 2, Veo 3, Kling 3, temporal consistency |
 | Code Generation | Copilot-style tools, code LLMs, benchmark evaluation |
 | Multimodal Generation | Text-to-image, image-to-text, any-to-any models |
 

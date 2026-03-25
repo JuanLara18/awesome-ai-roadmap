@@ -32,6 +32,7 @@ The architecture that revolutionized computer vision.
 | ResNet | Skip connections, training very deep networks |
 | EfficientNet | Compound scaling for efficiency |
 | ConvNeXt | Modernizing CNNs with transformer insights |
+| Mamba / State Space Models | Linear-time alternatives to attention for long sequences |
 
 ### Recurrent Networks & Sequences
 
@@ -70,6 +71,7 @@ Techniques for training large models efficiently.
 | Gradient Accumulation | Effective larger batch sizes |
 | Distributed Data Parallel (DDP) | Multi-GPU training |
 | FSDP / DeepSpeed ZeRO | Memory-efficient distributed training |
+| Mixture of Experts (MoE) | Sparse activation for efficient scaling (used in GPT-5, LLaMA 4, DeepSeek) |
 | Learning Rate Scheduling (Cosine, Warmup) | Better convergence |
 | Gradient Checkpointing | Trading compute for memory |
 

@@ -16,13 +16,13 @@ From GANs to diffusion models — the evolution of AI-generated images.
 |---|---|---|
 | GANs | Generator vs discriminator adversarial training | StyleGAN, BigGAN |
 | VAEs | Variational autoencoders for smooth latent spaces | VQ-VAE, DALL-E (v1) |
-| Diffusion Models | Iterative denoising from random noise | Stable Diffusion, DALL-E 3, Midjourney |
-| Flow Matching | Optimal transport-based generation | Flux, Stable Diffusion 3 |
+| Diffusion Models | Iterative denoising from random noise | Stable Diffusion 3.5, DALL-E 3, Midjourney |
+| Flow Matching | Optimal transport-based generation | Flux, Stable Diffusion 3.5 |
 | Consistency Models | Few-step generation from diffusion | LCM, SDXL Turbo |
 
 | Component | What It Does |
 |---|---|
-| U-Net / DiT | The backbone network that predicts noise |
+| DiT (Diffusion Transformer) / U-Net | The backbone network that predicts noise (DiT used in Flux, SD3+) |
 | Text Encoder (CLIP, T5) | Converts text prompts to conditioning vectors |
 | VAE | Encodes/decodes between pixel and latent space |
 | Scheduler (DDPM, Euler, DPM++) | Controls the denoising process |
@@ -55,9 +55,10 @@ The newest frontier — still rapidly evolving.
 
 | Model / Tool | Description |
 |---|---|
-| Sora (OpenAI) | Long-form video from text prompts |
-| Runway Gen-3 | Commercial video generation |
-| Kling / Veo | Competitive video generators |
+| Sora 2 Pro (OpenAI) | Hyper-realistic video from text prompts |
+| Veo 3.1 (Google) | Cinematic video with native audio sync |
+| Kling 3.0 | Native 4K@60fps, multilingual lip-sync, motion control |
+| Runway Gen-3 Alpha | Commercial video generation and editing |
 | AnimateDiff | Adding motion to image generation |
 | Temporal consistency | The core challenge — keeping videos coherent across frames |
 
@@ -70,8 +71,8 @@ AI as a programming partner.
 | GitHub Copilot | Inline code completion and generation |
 | Cursor | AI-native code editor |
 | Aider | Terminal-based AI pair programming |
-| Code LLMs (CodeLlama, StarCoder, DeepSeek Coder) | Open-source code models |
-| Benchmarks (HumanEval, SWE-bench) | Evaluating code generation quality |
+| Code LLMs (DeepSeek Coder, Qwen Coder, StarCoder 2) | Open-source code models |
+| Benchmarks (HumanEval, SWE-bench, Terminal-Bench) | Evaluating code generation quality |
 
 ---
 
