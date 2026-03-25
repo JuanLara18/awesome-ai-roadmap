@@ -115,16 +115,44 @@
 | **NeMo Guardrails** | LLM safety rails | [github.com/NVIDIA/NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) |
 | **Garak** | LLM vulnerability scanning | [github.com/leondz/garak](https://github.com/leondz/garak) |
 
-## Cloud Platforms
+## Cloud ML Platforms
 
 | Platform | AI/ML Services | Link |
 |---|---|---|
 | **AWS** | SageMaker, Bedrock | [aws.amazon.com/machine-learning](https://aws.amazon.com/machine-learning/) |
 | **Google Cloud** | Vertex AI, Gemini API | [cloud.google.com/vertex-ai](https://cloud.google.com/vertex-ai) |
-| **Azure** | Azure ML, OpenAI Service | [azure.microsoft.com/en-us/products/machine-learning](https://azure.microsoft.com/en-us/products/machine-learning) |
-| **Hugging Face** | Spaces, Inference Endpoints | [huggingface.co](https://huggingface.co/) |
+| **Azure** | Azure ML, Azure OpenAI Service | [azure.microsoft.com/en-us/products/machine-learning](https://azure.microsoft.com/en-us/products/machine-learning) |
+
+## Managed / Serverless Platforms
+
+| Platform | Purpose | Link |
+|---|---|---|
+| **Hugging Face** | Model hub, Spaces, Inference Endpoints, AutoTrain | [huggingface.co](https://huggingface.co/) |
+| **Replicate** | Run models via API (pay per prediction) | [replicate.com](https://replicate.com/) |
+| **Modal** | Serverless GPU functions in Python | [modal.com](https://modal.com/) |
+| **Together AI** | Fast inference for open-source LLMs | [together.ai](https://www.together.ai/) |
+| **Fireworks AI** | Optimized low-latency LLM inference | [fireworks.ai](https://fireworks.ai/) |
+| **Groq** | Ultra-fast LLM inference (custom LPU hardware) | [groq.com](https://groq.com/) |
+| **Anyscale** | Managed Ray for scaling ML workloads | [anyscale.com](https://www.anyscale.com/) |
+| **Gradio** | Build ML web UIs in Python | [gradio.app](https://www.gradio.app/) |
+| **Streamlit** | Python framework for data apps | [streamlit.io](https://streamlit.io/) |
+
+## Local / Self-Hosted AI
+
+| Tool | Purpose | Link |
+|---|---|---|
+| **Ollama** | Run LLMs locally with one command | [ollama.com](https://ollama.com/) |
+| **LM Studio** | Desktop app for running local LLMs | [lmstudio.ai](https://lmstudio.ai/) |
+| **LocalAI** | OpenAI-compatible local API | [localai.io](https://localai.io/) |
+| **llama.cpp** | CPU/GPU inference for GGUF models | [github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) |
+
+## GPU Cloud
+
+| Platform | Purpose | Link |
+|---|---|---|
 | **Lambda** | GPU cloud for training | [lambdalabs.com](https://lambdalabs.com/) |
 | **RunPod** | Affordable GPU cloud | [runpod.io](https://www.runpod.io/) |
+| **Vast.ai** | GPU marketplace (cheapest option) | [vast.ai](https://vast.ai/) |
 
 ## Development Environment
 
