@@ -82,6 +82,18 @@ Managing features consistently across training and serving.
 | **Tecton** | Managed feature platform |
 | **Hopsworks** | End-to-end ML platform with feature store |
 
+### Cloud ML Platforms
+
+The major cloud providers offer fully managed ML platforms that bundle many of the above concepts into integrated services.
+
+| Platform | Key Service | Strengths |
+|---|---|---|
+| **AWS** | SageMaker, Bedrock | Largest ecosystem, mature tooling, broadest model access |
+| **Google Cloud** | Vertex AI, Gemini API | Strong AutoML, BigQuery integration, TPU access |
+| **Microsoft Azure** | Azure ML, Azure OpenAI | Enterprise integration, Microsoft ecosystem, OpenAI partnership |
+
+Each platform handles training, deployment, pipelines, and monitoring differently. For a deep comparison, platform-specific workflows, and lighter alternatives (managed APIs, local deployment), see the dedicated **[End-to-End AI Platforms](../11-end-to-end-platforms/README.md)** track.
+
 ### LLMOps
 
 MLOps specific to LLM-powered applications.
@@ -133,6 +145,6 @@ MLOps specific to LLM-powered applications.
 
 ## What's Next?
 
-Consider the responsibility that comes with deploying AI in **[AI Safety & Ethics](../09-ai-safety-ethics/README.md)**, or explore what's coming next in **[Emerging Frontiers](../10-emerging-frontiers/README.md)**.
+Ready to ship? See **[End-to-End AI Platforms](../11-end-to-end-platforms/README.md)** for cloud, managed, and local deployment workflows. Then consider the responsibility that comes with deploying AI in **[AI Safety & Ethics](../09-ai-safety-ethics/README.md)**.
 
 [Back to Roadmap](../../README.md)
