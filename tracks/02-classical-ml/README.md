@@ -110,6 +110,7 @@ Automating the model selection and tuning process.
 | **Recommendation Engine** | Intermediate | Collaborative filtering and content-based recommendations |
 | **Fraud Detection System** | Advanced | Anomaly detection on highly imbalanced transaction data |
 | **Build Your Own Linear Regression** | Intermediate | Implement gradient descent from scratch with NumPy |
+| **Stress-Test K-Means** | Intermediate | Compare compact blobs with concentric rings, explain the failure, then try DBSCAN; optional starter: [Tiny ML Lab](https://github.com/RishabhPande/tiny-ml-lab) |
 
 ---
 
